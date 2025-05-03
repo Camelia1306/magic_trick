@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+
+<?import javafx.scene.image.Image?>
+<StackPane fx:id="rootPane" xmlns:fx="http://javafx.com/fxml"
+           fx:controller="org.example.magic_trick_fx.HelloController"
+           stylesheets="@style.css">
+    <VBox alignment="CENTER" spacing="20">
+        <ImageView fx:id="witchImage" fitHeight="150" fitWidth="100" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@witch_img.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="promptLabel" text="What number are you thinking of?" />
+        <TextField fx:id="inputField" promptText="Type a number..." />
+        <Button fx:id="magicButton" text="✨ Reveal ✨" onAction="#onRevealButtonClick" />
+        <Label fx:id="resultLabel" visible="false" />
+    </VBox>
+</StackPane>

@@ -1,0 +1,22 @@
+.root {
+    -fx-background-color: #e5a8ff;
+    -fx-font-family: "Comic Sans MS", cursive;
+}
+
+.label {
+    -fx-text-fill: #551155;
+    -fx-font-size: 16px;
+}
+
+.text-field {
+    -fx-background-color: #fcdfff;
+    -fx-background-radius: 15;
+    -fx-padding: 5 10;
+}
+
+.button {
+    -fx-background-color: #ffb6f9;
+    -fx-background-radius: 25;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
