@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.magic_trick_fx.ResultController"
+      alignment="CENTER" spacing="15" style="-fx-padding: 20;">
+    <Label fx:id="resultText" text="✨ You thought of..." />
+<!--    <Button text="Awesome!" onAction="#closeWindow"/>-->
+</VBox>

@@ -11,7 +11,10 @@
 .text-field {
     -fx-background-color: #fcdfff;
     -fx-background-radius: 15;
-    -fx-padding: 5 10;
+    -fx-pref-width: 200px;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+    -fx-border-radius: 20;
 }
 
 .button {

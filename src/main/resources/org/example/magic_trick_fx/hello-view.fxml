@@ -9,6 +9,9 @@
            fx:controller="org.example.magic_trick_fx.HelloController"
            stylesheets="@style.css">
     <VBox alignment="CENTER" spacing="20">
+        <padding>
+            <Insets top="40" right="40" bottom="40" left="40"/>
+        </padding>
         <ImageView fx:id="witchImage" fitHeight="150" fitWidth="100" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@witch_img.png" />
